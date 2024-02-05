@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.ttnrtsite.me/images/chipincss.png" width="64px">
+  <img src="/images/chipinCSS_logo.png" width="64px">
   <h1>chipinCSS</h1>
 </div>
 
@@ -7,12 +7,13 @@ ChipinCSS is a powerful and customization capable CSS library, with everything y
 
 ## Installing
 
-Installing the framework is very simple and straightforward. You can install it with our CDN network, using NodeJS, or downloading our precompiled version. There are some requirements you should have first.
+Installing the framework is very simple and very straightforward. You can install it with our CDN network, using NodeJS, or downloading it using our precompiled version. There are some requirements you should have first:
 
 * JQuary
 * PopperJS
 
-To start off, download the precompiled files, and store them in a folder or your own CDN network. You should always have this layout:
+To start off, download the precompiled files, and store them in a folder or your own CDN network, if you have one hosted. For example, a layout for a HTML page would look like this:
+
 
 ```html
 <!DOCTYPE html>
@@ -32,15 +33,17 @@ When you have the files unpacked, add these lines to your HTML file.
 
 ```html
 <link href="/path/to/your/files/chipinCSS/main.css" rel="stylesheet">
-
+<!-- Replace the path where the CSS files are located! -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 ```
 
-Save the file, and reload the page. Now you have ChipinCSS installed on your website! Lets get to customizing it.
+> NOTE: Remember to add these lines to your `<head>` tag so that they appear correctly. If JQuary does not work, you can put it to the `<body>` tag.
+
+Save the file, and reload the page. Now you have ChipinCSS installed on your website! Lets get to customizing it!
 
 ## Settings
 
-We have a bunch of settings to choose from. Some of them include:
+We have a bunch of settings for you to choose from. Some of them include:
 
 * Dark mode
 * Color schemes
@@ -53,6 +56,24 @@ We have a bunch of settings to choose from. Some of them include:
 * Buttons
 * Tables
 * Headers
+* Models
+* Cards
 
-To see more of the settings, please see our documentation.
+To see more of these settings, please see our documentation. Keep in mind that some of them require Javascript, so be sure to have JQuary installed!
 
+## Contributing
+We always like when people help us out on projects like this. In fact, anyone is free to edit and customize this framework however they like. Just fork this repo and you can modify it anyway you like!
+
+## Notes
+Keep in mind that this framework has some features that a person would expect from other CSS framworks. This can include the use of:
+
+- Javascript librarys
+- Scaling the screen with the elements
+- Grid boxes
+- Color modes
+- Form layouts
+
+This framework is expected to simple and small for starters. You may see problems with the listed things above, but you should wait for a release on some of them.
+
+## Licence
+This project is under the Apache License 2.0. See more on our license file.
