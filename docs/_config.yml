@@ -2,7 +2,7 @@ title: ChipinCSS Docs
 description: The documentation site for ChipinCSS
 plugins:
   - jekyll-remote-theme
-remote_theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: https://www.shaunhoffer.cc/ChipinCSS
 
