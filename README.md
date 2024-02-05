@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/images/chipinCSS_logo.png" width="64px">
+  <img src="logo.png" width="64px">
   <h1>chipinCSS</h1>
 </div>
 
