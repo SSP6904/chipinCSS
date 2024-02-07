@@ -65,7 +65,7 @@ To see more of these settings, please see our documentation. Keep in mind that s
 We always like when people help us out on projects like this. In fact, anyone is free to edit and customize this framework however they like. Just fork this repo and you can modify it anyway you like!
 
 ## Notes
-Keep in mind that this framework has some features that a person would expect from other CSS framworks. This can include the use of:
+Keep in mind that this framework may not have features that a person would expect from other CSS framworks. This can include:
 
 - Javascript librarys
 - Scaling the screen with the elements
