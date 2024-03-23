@@ -3,6 +3,18 @@
 /* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /** 1. Change the default font family in all browsers (opinionated). 2. Correct the line height in all browsers. 3. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 /* Document ========================================================================== */
+:root {
+  --ci-bk-color: white;
+  --ci-txt-color: black;
+  --ci-primary-color1: #730694;
+  --ci-primary-color2: #600182;
+  --ci-success-color1: #03ab33;
+  --ci-success-color2: #03ab70;
+  --ci-danger-color1: #ab1403;
+  --ci-danger-color2: #ab4f03;
+  --ci-warning-color1: #e7f705;
+  --ci-warning-color2: #f7df05;
+}
 html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 3 */ 
@@ -13,6 +25,7 @@ html {
 /** Remove the margin in all browsers (opinionated). */
 body {
   margin: 0;
+  padding: 0;
 }
 
 /** Add the correct display in IE 9-. */

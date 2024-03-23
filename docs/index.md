@@ -8,9 +8,10 @@ nav_order: 1
 ChipinCSS is a powerful and customization capable CSS library, with everything you wanted outside of it! It comes with many styles, color modes, styling elements, and many more. The library is all open-source, so you can modify it yourself!
 
 ## Installing
+
 Installing the framework is very simple and very straightforward. You can install it with our CDN network, using NodeJS, or downloading it using our precompiled version. There are some requirements you should have first:
 
-* JQuary
+* JQuery
 * PopperJS
 
 To start off, download the precompiled files, and store them in a folder or your own CDN network, if you have one hosted. For example, a layout for a HTML page would look like this:
@@ -38,9 +39,9 @@ When you have the files unpacked, add these lines to your HTML file.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 ```
 
-> NOTE: Remember to add these lines to your `<head>` tag so that they appear correctly. If JQuary does not work, you can put it to the `<body>` tag.
+> NOTE: Remember to add these lines to your `<head>` tag so that they appear correctly. If JQuery does not work, you can put it in the `<body>` tag.
 
-Save the file, and reload the page. Now you have ChipinCSS installed on your website! Lets get to customizing it!
+Save the file, and reload the page. Now you have ChipinCSS installed on your website! Let's get to customizing it!
 
 ## Settings
 
@@ -49,7 +50,7 @@ We have a bunch of settings for you to choose from. Some of them include:
 * Dark mode
 * Color schemes
 * Alerts
-* Popups
+* Pop Ups
 * Hints (requires popperJS)
 * Containers
 * Navbars
@@ -60,21 +61,23 @@ We have a bunch of settings for you to choose from. Some of them include:
 * Models
 * Cards
 
-To see more of these settings, please see our documentation. Keep in mind that some of them require Javascript, so be sure to have JQuary installed!
+To see more of these settings, please see our documentation. Keep in mind that some of them require JavaScript, so be sure to have JQuery installed!
 
 ## Contributing
 We always like when people help us out on projects like this. In fact, anyone is free to edit and customize this framework however they like. Just fork this repo and you can modify it anyway you like!
 
 ## Notes
-Keep in mind that this framework may not have features that a person would expect from other CSS framworks. This can include:
+Keep in mind that this framework may not have features that a person would expect from other CSS frameworks. This can include:
 
-- Javascript librarys
+- JavaScript libraries
 - Scaling the screen with the elements
 - Grid boxes
 - Color modes
 - Form layouts
 
-This framework is expected to simple and small for starters. You may see problems with the listed things above, but you should wait for a release on some of them.
+This framework is expected to be simple and small for starters. You may see problems with the listed things above, but you should wait for a release on some of them.
 
-## Licence
+## License
 This project is under the Apache License 2.0. See more on our license file.
+
+
